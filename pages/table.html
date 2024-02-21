@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблиця</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #000000;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #fdb3f7;
+        }
+        caption {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style> 
+    <h1>Таблиця</h1>
+</head>
+<body>
+    <div class="container">
+        <h2>Робота з таблицею</h2>
+        <table>
+            <caption>Квитанція на сплату послуг</caption>
+            <thead>
+                <tr><th>Вид послуги</th><th>Час</th><th>Ціна</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>Зачіска</td><td>10:00 - 12:00</td><td>$200</td></tr>
+                <tr><td>Вечірній макіяж</td><td>12:00 - 13:30</td><td>$500</td></tr>
+            </tbody>
+            <tfoot>
+                <tr><td colspan="2">Всього до сплати:</td><td>$700</td></tr>
+            </tfoot>
+        </table>
+    </div>
+</body>
+</html>
